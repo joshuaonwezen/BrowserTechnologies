@@ -243,6 +243,8 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+<<<<<<< HEAD
+=======
 
 
 /* MY STUFF */
@@ -254,3 +256,4 @@ a {
     float:right;
   }
 }
+>>>>>>> funda

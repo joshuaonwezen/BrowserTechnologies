@@ -1,3 +1,115 @@
+<<<<<<< HEAD
+<html>
+    <head>
+        <title>Funda - Project 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="resources/style.css" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" type="image/png" href="resources/favicon.ico"/>
+        
+        <script src="lib/underscore.js"></script>
+        <script src="lib/routie.min.js"></script>
+
+        <script src="js/utils.js"></script>
+        <script src="js/listTemplate.js"></script>       
+        <script src="js/productTemplate.js"></script>        
+        <script src="js/searchCall.js"></script>
+        <script src="js/routing.js"></script>
+        <script src="js/handling.js"></script>
+        <script src="js/ajaxRequest.js"></script> 
+        <script src="js/launcher.js"></script>
+    </head>
+    <body>
+        <div id="homepage">
+        <header role="banner">
+            <nav role="navigation">
+                <div class="logo">
+                    <img src="resources/funda-logo.svg">
+                </div>
+                <ul>
+                    <li><a href="#">Inloggen</a></li>
+                    <li><a href="#">Registreren</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input id="search-input" type="search"/>
+                <span class="icon-search"></span>
+            </div>
+        </header>
+        
+        <div class="loader"></div>
+                
+        <main role="main">
+            <aside class="filter">
+                <ul>
+                    <li><h3>Prijs</h3></li>
+                    <li><label>Maximale prijs:</label></li>
+                    <li><input id="price-slider" type="range" min="0" max="100"></li>
+                    <li><label id="price-label"></label></li>
+                    
+                    <li><h3>Soort aanbod</h3></li>
+                    <li class="filter-checkbox"><input type="radio" name ="offerrooms" id="offerrooms-1"/><label for="offerrooms-1">Woonhuis</label></li>
+                    <li class="filter-checkbox"><input type="radio" name ="offerrooms" id="offerrooms-2"/><label for="offerrooms-2">Appartement</label></li>
+                    <li><a href="#"> + Alle soorten aanbod</a></li>
+                    
+                    <li><h3>Aantal kamers</h3></li>
+                    <li class="filter-checkbox"><input type="radio" name ="amountrooms" id="amountrooms-1"/><label for="amountrooms-1">2+</label></li>
+                    <li class="filter-checkbox"><input type="radio" name ="amountrooms" id="amountrooms-2"/><label for="amountrooms-2">3+</label></li>
+                    <li class="filter-checkbox"><input type="radio" name ="amountrooms" id="amountrooms-3"/><label for="amountrooms-3">4+</label></li>
+                    <li class="filter-checkbox"><input type="radio" name ="amountrooms" id="amountrooms-4"/><label for="amountrooms-4">5+</label></li>
+                    <li class="filter-checkbox"><input type="radio" name ="amountrooms" id="amountrooms-5"/><label for="amountrooms-5">6+</label></li>
+                    <li class="filter-checkbox"><input type="radio" name ="amountrooms" id="amountrooms-6"/><label for="amountrooms-6">7+</label></li>
+                    <li><a href="#"> + Alle soorten kamers</a></li>
+                </ul>
+            </aside>
+            <aside class="properties hide">
+                
+            </aside>
+            <section id="search-results">
+                <div class="container">
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <nav>
+                <ul> 
+                   <li>Service </li>
+                    <li><a href="#">Inloggen</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul>
+                    <li>Huis op funda </li>
+                    <li><a href="#">Huis plaatsen</a></li>
+                    <li><a href="#">NVM makelaar</a></li>
+                    <li><a href="#">Bladeren</a></li>
+                </ul>
+                <ul>
+                    <li>Funda </li>
+                    <li><a href="#">Over funda</a></li>
+                    <li><a href="#">Vacatures</a></li>
+                    <li><a href="#">Adverteren</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>© 2000–2016 funda — Powered by NVM </li>
+                </ul>
+            </nav>
+        </footer>
+        </div>
+        <div id="product">
+            <main>
+                <section id="product-details">
+                </section>
+            </main>
+            <footer>
+                Toon meer afbeelding...
+            </footer>
+        </div>
+    </body>
+=======
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -18,10 +130,12 @@ if (typeof jQuery == 'undefined') {
   </head>
   <body>
     <div class="mydiv">
+    Audio
     <audio id="audioplayer" preload controls loop>
       <source src="audio.mp3">
     </audio>
 
+      Video
       <video id="mainVid" class="video-js vjs-default-skin" controls
           preload="auto" width="640" height="480" poster="http://media02.hongkiat.com/code-fallback-methods/default_preview_img.png"
           data-setup="{}">
@@ -37,4 +151,5 @@ if (typeof jQuery == 'undefined') {
 </script>
   
   </body>
+>>>>>>> funda
 </html>
